@@ -2,7 +2,7 @@
 $passPhrase = 'xxxxxxxx'; //SQID API Passphrase 
 $data = array();
 $data['methodName'] = 'processPayment';
-$data['merchantCode'] = 'FJVF';
+$data['merchantCode'] = 'ZZZZ'; //Merchant code provided by SQID
 $data['apiKey'] = 'YYYYYYYYYYYYYYYYYYYYYYY'; //SQID API KEY
 $data['amount'] = '1.00';
 $data['currency'] = 'AUD';
@@ -19,7 +19,7 @@ $data['customerEmail'] = 'your_email@domain.com';
 $data['customerIP'] = '120.0.0.1';
 $data['cardNumber'] = 'XXXXXXXXXXXXXXXXX';
 $data['cardExpiry'] = '0219';
-$data['cardName'] = 'Bob Smith';
+$data['cardName'] = 'VISA';
 $data['cardCSC'] = 'XXX';
 $data['customField1'] = 'c1';
 $data['customField2'] = 'c2';
